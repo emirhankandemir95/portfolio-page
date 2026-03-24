@@ -1,0 +1,40 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.introduction{
+    display: flex;
+    align-items: flex-start;
+}
+.intro-text{
+    flex: 1;
+}
+figure{
+    flex: 1;
+}
+body{
+    border: 5px solid black;
+}
+img{
+    width: 100%;
+}
+.contact-form{
+display: flex;
+flex-direction:column;
+gap: 20px;
+border: 2px dotted rgb(96 139 168);
+}
+.link-button{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 100px;
+    size: 10px;
+    text-align: center;
+    text-wrap: inherit(button);
+    width: 200px;
+    color: black;
+    cursor: pointer;
+}
+.link-button:hover{
+    background-color: brown;
+}
