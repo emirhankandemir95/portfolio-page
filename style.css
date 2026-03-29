@@ -1,37 +1,45 @@
-.container{
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
-.introduction{
+
+.introduction {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
 }
-.intro-text{
+
+.intro-text {
     flex: 1;
 }
-figure{
+
+figure {
     flex: 1;
 }
-body{
+
+body {
     border: 5px solid black;
 }
-img{
+
+img {
     width: 100%;
 }
-.contact-form{
+
+.contact-form {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 20px;
     border: 2px dotted rgb(96 139 168);
 }
-.link-button{
-    max-height: 200px;
+
+.link-button {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid purple;
 }
-.link-button a{
+
+.link-button a {
+    gap: 20px;
     text-decoration: none;
     color: black;
     width: auto;
@@ -39,17 +47,21 @@ img{
     cursor: pointer;
     background-color: rgb(78, 108, 163);
     padding: 8px 20px;
+    display: inline-block;
     border-radius: 10px;
 }
-.link-button a:hover{
+
+.link-button a:hover {
     background-color: brown;
 }
-.project-grid{
+
+.project-grid {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.project-grid li{
+
+.project-grid li {
     list-style: none;
     border: 5px dotted green;
     text-align: center;
